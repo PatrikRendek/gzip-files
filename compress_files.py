@@ -1,8 +1,10 @@
-ompress files in directory using gzip
+#!/usr/bin/python3
+"""
+  Compress files in directory using gzip
     usage:
        ./compress_files.py <directory>
     example:
-        ./compress_files.py /var/log/
+       ./compress_files.py /var/log/
 """
 
 import os
