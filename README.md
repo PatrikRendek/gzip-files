@@ -9,4 +9,5 @@
 
 <p>Or install python-crontab and run add_cron_job.py</p>
 <code>pip3 install python-crontab</code>
+<p></p>
 <code>add_cron_job.py compress_files.py /var/log</code>
