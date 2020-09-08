@@ -16,8 +16,7 @@ import sys
 def gzip_files(files:list):
     """Gzip files in paths from list.
 
-        Parameters:
-        files (list) -- Paths of files
+        :param files (list) -- Paths of files
     """
     for file in files:
         try:
@@ -30,8 +29,7 @@ def gzip_files(files:list):
 def get_files(root_path: str):
     """Get paths of files in root directory and its subdirectories.
 
-        Parameters:
-        root_path (string) -- Path of root directory
+        :param root_path (string) -- Path of root directory
 
         Returns:
         list: List of paths.

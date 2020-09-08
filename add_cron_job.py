@@ -12,8 +12,8 @@ from crontab import CronTab
 def add_cron_job(script_path:str,dir_to_compress:str):
     """
     Add cron job that runs every 30 days
-    :param script_path:
-    :param dir_to_compress:
+    :param script_path (String): path to script (compress_files.py)
+    :param dir_to_compress: Directory to compress ("/var/log")
     :return: True
     """
     cron = CronTab()
